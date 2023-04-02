@@ -16,7 +16,7 @@ h1 {
   height: 200px;
   background: gray;
 }
-.container div {
+.dish {
   position: relative;
   float: right;
   padding: 5px;
@@ -24,7 +24,18 @@ h1 {
   text-align: center;
   border-bottom: 1px solid;
   border-left: 1px solid;
+}
+.dish-1 {
   background: pink;
+}
+.dish-2 {
+  background: red;
+  color: white;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+.dish-3 {
+  background: wheat;
 }
 
 .container p {
